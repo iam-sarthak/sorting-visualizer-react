@@ -1,0 +1,44 @@
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.leftside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+.leftside button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.right-side{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.right-side button{
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid green;
+    border-radius: 10px;
+}
+.right-side button:hover, .leftside button:hover{
+    background-color: rgb(106, 231, 106);
+    font-weight: 500;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.inputs input{
+    width: 60px;
+}
